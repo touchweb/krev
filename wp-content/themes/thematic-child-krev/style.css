@@ -1,0 +1,55 @@
+/*
+Theme Name:     Thematic Child KREV
+Theme URI:      http://www.elgaland-vargaland.com
+Description:    Child theme for the Thematic theme, tailored for KREV
+Author:         Dave Knapik
+Author URI:     http://www.daveknapik.com
+Template:       thematic
+Version:        0.0.1
+*/
+
+@import url("../thematic/style.css");
+
+/* old styles from www.elgaland-vargaland.com */
+
+body {
+    background-color: #FFF;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 1.4em;
+  color: #000;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  color: #D92121;
+}
+
+
+a:link{
+  color: #416797;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:visited{
+  color: #416797;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover{
+  color: #FFF;
+  text-decoration: none;
+  background-color: #416797;
+}
+
+#footer {
+  display:none;
+}
+
+#access ul li {
+  border: none;
+}
